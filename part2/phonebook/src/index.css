@@ -1,0 +1,17 @@
+.error {
+    background-color: #DDD;
+    border: 2px solid #F00;
+    color: #F00;
+    padding: 9px;
+    font-size: 28px;
+    margin-bottom: 10px
+}
+
+.success {
+    background-color: #DDD;
+    border: 2px solid #080;
+    color: #080;
+    padding: 9px;
+    font-size: 28px;
+    margin-bottom: 10px
+}

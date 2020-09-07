@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const Country = ({ filtered, list, query, setQuery}) => {
+const Country = ({ filtered, list, query, setQuery }) => {
     const [weather, setWeather] = useState({})
 
     if (filtered.length === 1 || query.name) {
@@ -23,9 +23,9 @@ const Country = ({ filtered, list, query, setQuery}) => {
                 </div>
                 <div>
                     <h2>Weather in {capital}</h2>
-                    {/* <h3>temperature: {weather.temperature || 0}</h3>
+                    <h3>temperature: {weather.temperature || 0}</h3>
                     <img src='https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png' alt="Weather Icon" />
-                    <h3>Wind: {weather.wind_speed || 0}kph direction: {weather.wind_dir || 0}</h3> */}
+                    <h3>Wind: {weather.wind_speed || 0}kph direction: {weather.wind_dir || 0}</h3>
                 </div>
             </div>
         )
